@@ -3,7 +3,7 @@
     "name": "Vedant Saxena",
     "photo": "",
     "title": "Vedant Saxena — Engineering Portfolio",
-    "tagline": "Aspiring Pilot, and Systems Engineer",
+    "tagline": "Aspiring Pilot and Systems Engineer",
     "email": "vsaxena3@buffalo.edu",
     "location": "Buffalo, NY",
     "status": "Open to opportunities",
@@ -16,8 +16,8 @@
   "about": {
     "heading": "About",
     "paragraphs": [
-      "The one and only Vedant Saxena. Describe the kind of engineer, designer, researcher, or builder you are.",
-      "Helping solve seizure detection while driving and sending a mission to find Methane on Mars"
+      "The one and only Vedant Saxena.",
+      "Helping solve seizure detection while driving and sending a mission to find methane on Mars."
     ],
     "looking": "Full-time opportunities in systems engineering, embedded systems, and aerospace engineering.",
     "profile": {
@@ -41,7 +41,7 @@
         { "name": "Git", "level": "intermediate" },
         { "name": "SOLIDWORKS", "level": "expert" },
         { "name": "Arduino", "level": "intermediate" },
-        { "name": "Autodesk Fusion360", "level": "intermediate" }
+        { "name": "Autodesk Fusion 360", "level": "intermediate" }
       ]
     }
   ],
@@ -50,42 +50,18 @@
       "slug": "mars-methane-explorer",
       "order": 1,
       "name": "Mars Methane Explorer",
-      "description": "A fictional sample project designed to explore the detection of methane on Mars.",
+      "description": "A mission concept designed to explore the detection of methane on Mars.",
       "tags": ["Aerospace", "Embedded Systems", "Python", "MATLAB", "CAD", "Space Mission Architecture Design"],
-      "links": {
-        "github": "https://github.com/your-username/your-project",
-        "live": { "href": "https://example.com", "label": "Live demo" }
-      },
-      "captions": {
-        "01-system-diagram.svg": "A neutral sample diagram. Add your own web-ready images to this project's folder."
-      },
       "status": "in-development",
       "dates": "August 2026 - Present",
       "specs": {
-        "Role": "Project Lead, Payload Engineer, Program Analyst",
-        "Platform": "Web, hardware, research, or another context"
-      }
-    },
-    {
-      "slug": "soil-sensor",
-      "order": 2,
-      "name": "Soil Sensor",
-      "description": "A second fictional project without an image. It demonstrates that project images are optional and gives you a starting point for another project entry.",
-      "tags": ["Embedded Systems", "C++"],
-      "links": { "github": "" },
-      "status": "complete",
-      "dates": "2025",
-      "specs": {
-        "Role": "Your role"
+        "Role": "Project Lead, Payload Engineer, Program Analyst"
       }
     }
   ],
   "education": {
     "degree": "B.S. Mechanical Engineering",
-    "school": {
-      "href": "https://www.buffalo.edu/",
-      "label": "University at Buffalo"
-    },
+    "school": "University at Buffalo",
     "start": "2023-08",
     "end": "2027-05"
   },
@@ -96,10 +72,7 @@
       "location": "Muscat, Oman",
       "start": "2023-06",
       "end": "2023-07",
-      "bullets": [
-        "Start each bullet with an action verb and describe what you made, improved, or learned.",
-        "Use a second bullet for an outcome, responsibility, or technical detail."
-      ]
+      "bullets": []
     }
   ],
   "contact": [

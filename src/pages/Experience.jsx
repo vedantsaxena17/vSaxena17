@@ -31,7 +31,7 @@ export default function Experience() {
         {next && (
           <Milestone date={next.start} label={`Continuing into — ${next.degree}`} detail={next.school} />
         )}
-        <Milestone date={end} label={`Graduating — ${degree}`} detail={`${minors}, ${school}`} />
+        <Milestone date={end} label={`Graduating — ${degree}`} detail={[minors, school].filter(Boolean).join(", ")} />
         {experience.map(({ role, org, location, start, end, bullets }) => (
           <div key={`${role}-${org}`} className="timeline-item">
             <Panel hoverable>
@@ -44,11 +44,13 @@ export default function Experience() {
               <p className="timeline-org">
                 {org} · {location}
               </p>
-              <ul className="timeline-bullets">
-                {bullets.map((bullet) => (
-                  <li key={bullet}>{bullet}</li>
-                ))}
-              </ul>
+              {bullets?.length > 0 && (
+                <ul className="timeline-bullets">
+                  {bullets.map((bullet) => (
+                    <li key={bullet}>{bullet}</li>
+                  ))}
+                </ul>
+              )}
             </Panel>
           </div>
         ))}
