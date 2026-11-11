@@ -32,14 +32,14 @@
       "group": "Languages",
       "items": [
         { "name": "Python", "level": "intermediate" },
-        { "name": "MATLAB", "level": "  expert" }
+        { "name": "MATLAB", "level": "expert" }
       ]
     },
     {
       "group": "Tools",
       "items": [
         { "name": "Git", "level": "intermediate" },
-        { "name": "SOLIDWORKS", "level": " expert" },
+        { "name": "SOLIDWORKS", "level": "expert" },
         { "name": "Arduino", "level": "intermediate" },
         { "name": "Autodesk Fusion360", "level": "intermediate" }
       ]
@@ -47,7 +47,7 @@
   ],
   "projects": [
     {
-      "slug": "Mars Methane Explorer",
+      "slug": "mars-methane-explorer",
       "order": 1,
       "name": "Mars Methane Explorer",
       "description": "A fictional sample project designed to explore the detection of methane on Mars.",
@@ -59,7 +59,7 @@
       "captions": {
         "01-system-diagram.svg": "A neutral sample diagram. Add your own web-ready images to this project's folder."
       },
-      "status": "In-progress",
+      "status": "in-development",
       "dates": "August 2026 - Present",
       "specs": {
         "Role": "Project Lead, Payload Engineer, Program Analyst",
@@ -71,7 +71,7 @@
       "order": 2,
       "name": "Soil Sensor",
       "description": "A second fictional project without an image. It demonstrates that project images are optional and gives you a starting point for another project entry.",
-      "tags": ["Embedded systems", "C++"],
+      "tags": ["Embedded Systems", "C++"],
       "links": { "github": "" },
       "status": "complete",
       "dates": "2025",
@@ -103,7 +103,7 @@
     }
   ],
   "contact": [
-    { "label": "Email", "url": "vsaxena3@buffalo.edu", "icon": "mail" },
+    { "label": "Email", "url": "mailto:vsaxena3@buffalo.edu", "icon": "mail" },
     { "label": "GitHub", "url": "https://github.com/vedantsaxena17", "icon": "github" },
     { "label": "LinkedIn", "url": "https://www.linkedin.com/in/vedantsaxena2005", "icon": "linkedin" }
   ]
